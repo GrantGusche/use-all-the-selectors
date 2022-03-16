@@ -2,7 +2,7 @@ body {
   background-color: #fdf6e3;
 }
 
-header{
+header, footer {
   font-size: 1.5rem;
 }
 
@@ -11,9 +11,17 @@ nav ul {
 }
 
 .logo {
-  text transform: uppercase
+  text transform: uppercase;
 }
 
 wrapper {
-  background-color: #eee8d5
+  background-color: #eee8d5;
+}
+
+#contents, favs, facts, types {
+  color: #93a1a1;
+}
+
+wrapper > dfn {
+  background-color: #b58900;
 }
