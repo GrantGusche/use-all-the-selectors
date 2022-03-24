@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
 }
 
-*,* ::before, *::after {
+*, * ::before, *::after {
   box-sizing: inherit;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 [rel="external"] {
-  background-color: #2694d8
+  background-color: #2694d8;
 }
 
 ol li:first-child {
@@ -64,5 +64,5 @@ ol li:last-child {
 }
 
 .type li:nth-child(3n) {
-  background-color: #d04b16
+  background-color: #d04b16;
 }
