@@ -31,7 +31,8 @@ ul nav {
   background-color: #b58900;
 }
 
-.dfn p + .dfn strong {
+
+.dfn strong {
   color: #fff;
 }
 
@@ -40,7 +41,7 @@ a {
 }
 
 .no-highlight {
-  background-color: #fff;
+  background-color: inherit;
 }
 
 [rel="external"] {
