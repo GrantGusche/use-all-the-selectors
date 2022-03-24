@@ -10,8 +10,8 @@ nav ul {
   font-family: sans-serif;
 }
 
-.logo {
-  text transform: uppercase;
+ .logo {
+  text-transform: uppercase;
 }
 
 wrapper {
@@ -25,3 +25,19 @@ wrapper {
 wrapper > dfn {
   background-color: #b58900;
 }
+
+.dfn + strong {
+  add color : #fff;
+}
+
+li ~ a href {
+  background-color: #719e07;
+}
+
+.rasp {
+  color: #719e47;
+}
+
+.blue {
+  color: #2aa198;
+  }
